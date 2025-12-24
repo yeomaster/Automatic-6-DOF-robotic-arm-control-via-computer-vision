@@ -39,7 +39,7 @@ This was a team project, and my contribution/role was in the **computer vision c
 8. if the hand is then moved away from the 3D pen, then printing automatically continues
 <br/><br/>
 
-<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/4b0b555b-fe10-4939-9b2f-50d9def30cc6" /><br/>
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/4b0b555b-fe10-4939-9b2f-50d9def30cc6" /><br/>
 [detecting the workspace via aruco markers an th pen location via 3D RGB and Depth cameras]<br/><br/>
 
 <img width="800" height="600" alt="{45C41734-A5B1-4DF0-92DA-D2BA695D3918}" src="https://github.com/user-attachments/assets/c60ea265-bde0-4661-9283-6884bd264024" /><br/>
