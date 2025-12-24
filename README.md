@@ -1,4 +1,4 @@
-<img width="1012" height="495" alt="image" src="https://github.com/user-attachments/assets/e2ac258f-034f-4ab7-801a-3579806dffcd" /># Automatic-6-DOF-robotic-arm-control-via-computer-vision
+# Automatic-6-DOF-robotic-arm-control-via-computer-vision
 
 
 # Objective:
