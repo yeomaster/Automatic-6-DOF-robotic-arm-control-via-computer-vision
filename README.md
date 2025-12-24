@@ -1,6 +1,7 @@
 # Automatic-6-DOF-robotic-arm-control-via-computer-vision
 
-**Full video at:**
+**Full video at:** <br/>
+https://www.youtube.com/watch?v=89Xu-zjxOEs
 
 
 # Objective:
