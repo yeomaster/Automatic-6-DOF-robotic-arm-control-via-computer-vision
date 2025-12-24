@@ -1,4 +1,4 @@
-# Automatic-6-DOF-robotic-arm-control-via-computer-vision
+<img width="1012" height="495" alt="image" src="https://github.com/user-attachments/assets/e2ac258f-034f-4ab7-801a-3579806dffcd" /># Automatic-6-DOF-robotic-arm-control-via-computer-vision
 
 
 # Objective:
@@ -38,7 +38,7 @@ This was a team project, and my contribution/role was in the **computer vision c
 - Firstly, the RGB camera detects what items are in view and if it detects either a 'hand' class (Mediapipe) or a 3D pen (trained via Roboflow) then the location of the items are noted in 2D (i.e. the u,v pixel location of the hand in a 2D camera)
 - then, once the u,v coordinate is noted, the system send the pixel coordinates to the depth camera, where **the depth (Z coordinate) of said pixel is detected and noted**
 - now that the Z coordinate of an object, be it hand or pen, is know, the x,y coordinated had to be calculated too, this was done by the following formula:
-<img width="375" height="103" alt="{65038955-0C7E-4F68-84BF-0422D2F54AD9}" src="https://github.com/user-attachments/assets/12255b68-7691-41c3-bbd0-ee6b7249e3df" />
+<img width="375" height="103" alt="{65038955-0C7E-4F68-84BF-0422D2F54AD9}" src="https://github.com/user-attachments/assets/12255b68-7691-41c3-bbd0-ee6b7249e3df" /><br/>
 where: <br/>
 X = x coordinate of object <br/>
 Y = y coordiante of object <br/>
@@ -49,8 +49,8 @@ cx = principal point x (pixel x-coordinate of the optical center)<br/>
 cy = principal point y (pixel y-coordinate of the optical center)<br/>
 fy, fx =focal lengths (in pixels) <br/>
 - Once the XYZ coordinate of BOTH the hand and pen was detected, distance between them was calculated via **3D Euclidean distance**, taking both XYZ coordinates of both the pen and the hand to calculate the distance between. this was one of the most important parts of our project
-<img width="205" height="29" alt="{FFE16CB9-0AD0-452F-9727-CB3F6F481682}" src="https://github.com/user-attachments/assets/ced6c3d7-745c-4d09-9088-dcbcaecdbdee" />
-<img width="1012" height="495" alt="image" src="https://github.com/user-attachments/assets/e84ed44f-38a3-420d-b3db-7c2a35d1f375" />
+<img width="350" height="100" alt="{FFE16CB9-0AD0-452F-9727-CB3F6F481682}" src="https://github.com/user-attachments/assets/ced6c3d7-745c-4d09-9088-dcbcaecdbdee" />
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/e84ed44f-38a3-420d-b3db-7c2a35d1f375" />
 
 -note: I did NOT do the aruco boundary part, that was added on by another member
 - in case the Depth camera was down, we made a failsafe system where the distance woulde be measured via 2D camera only, ie 2D Euclidean distance calculation, while not as accurate as 3D, and false readings were common, it was safer than nothing.
