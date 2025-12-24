@@ -42,13 +42,13 @@ This was a team project, and my contribution/role was in the **computer vision c
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/4b0b555b-fe10-4939-9b2f-50d9def30cc6" /><br/>
 [detecting the workspace via aruco markers an th pen location via 3D RGB and Depth cameras]<br/><br/>
 
-<img width="800" height="600" alt="{45C41734-A5B1-4DF0-92DA-D2BA695D3918}" src="https://github.com/user-attachments/assets/c60ea265-bde0-4661-9283-6884bd264024" /><br/>
+<img width="600" height="400" alt="{45C41734-A5B1-4DF0-92DA-D2BA695D3918}" src="https://github.com/user-attachments/assets/c60ea265-bde0-4661-9283-6884bd264024" /><br/>
 [If a hand is detected, measure the distance between hand and pen]<br/><br/>
 
-<img width="800" height="600" alt="{BE0BC4E0-1223-4E70-B838-9FB9B0227234}" src="https://github.com/user-attachments/assets/e634f89f-91d1-4b74-b553-190ad81e5b76" /><br/>
+<img width="600" height="400" alt="{BE0BC4E0-1223-4E70-B838-9FB9B0227234}" src="https://github.com/user-attachments/assets/e634f89f-91d1-4b74-b553-190ad81e5b76" /><br/>
 [If a hand moves within 25cm of 3D pen, system throws warnings and printing speeds is reduced to 70%]<br/><br/>
 
-<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/a00ce246-c1b9-49c5-af03-8e3ecab5d735" /><br/>
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/a00ce246-c1b9-49c5-af03-8e3ecab5d735" /><br/>
 [if a hand moves within 20cm of the pen, system stops]<br/><br/>
 
 # Some imortant notes about Computer Vision (my contribution)
