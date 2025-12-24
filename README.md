@@ -1,4 +1,4 @@
-# Automatic-6-DOF-robotic-arm-control-via-computer-vision
+<img width="766" height="401" alt="{BFFA47BC-EF38-4F0D-B62D-49572899F3BC}" src="https://github.com/user-attachments/assets/215d645b-ea62-4c8f-ae86-cab54ee79f39" /># Automatic-6-DOF-robotic-arm-control-via-computer-vision
 
 
 # Objective:
@@ -23,6 +23,8 @@ This was a team project, and my contribution/role was in the **computer vision c
 - Mediapipe (getting accurate location + reading of user's hand locations)
 - Roboflow (training the YOLO segmentation model for additional items it needs to reliably detect,specifically the 3D pen)
 <br/><br/>
+<img width="766" height="401" alt="{BFFA47BC-EF38-4F0D-B62D-49572899F3BC}" src="https://github.com/user-attachments/assets/1f985693-e032-41aa-9c44-c43909191e4f" />
+<br/>
 # How the system works:
 1. Connection established between server (robot arm) and client (user computer)
 2. User gives command of which shape to draw from a list of available
